@@ -47,7 +47,7 @@ img {
   padding: 0;
   list-style: none;
   position: fixed;
-  left: 100px;
+  left: 50px;
   top: 5%;
   width: 1px;
   height: 90%;
@@ -67,7 +67,8 @@ img {
 }
 
 timeline-section {
-  border-top: 2px solid #fcf769;
+/*  border-top: 2px solid #fcf769;
+*/  
   padding: 20px;
   font-size: 16px;
   font-weight: 200;
@@ -83,10 +84,10 @@ p {
   width: 20px;
   height: 20px;
   background: #FFF;
-  left: 10px;
+  left: -10px;
   z-index: 1;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 .node:hover {
   background: #46ffdd;
@@ -105,14 +106,14 @@ p {
 .node span {
   transition: all 0.4s ease-out;
   text-transform: uppercase;
-  right: 4px;
+  left: 15px;
   top: -16px;
   color: #FFFFFF;
   position: absolute;
   padding: 10px;
   white-space: nowrap;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 200;
   font-family: "Montserrat";
-  opacity: 0;
+  /*opacity: 0;*/
 }

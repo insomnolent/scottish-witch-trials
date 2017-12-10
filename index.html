@@ -22,6 +22,7 @@
     <!-- Custom styles for this template -->
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/timeline.css" rel="stylesheet">
+    <link href="css/extra.css" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/png" href="./img/potion.png"/>
 
@@ -40,22 +41,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Overview</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Narrative</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#details">Details</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#data">Data</a>
+              <a class="nav-link js-scroll-trigger" href="#data">Data Critique</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#conclusions">Conclusions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#works">Works</a>
+              <a class="nav-link js-scroll-trigger" href="works.html">Works Cited</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Team</a>
+              <a class="nav-link js-scroll-trigger" href="team.html">Team</a>
             </li>
 
           </ul>
@@ -84,39 +82,226 @@
               <li class="bar"></li>
             </ul>
             <div class="timeline-container">
-              <timeline-section data-name="Home">
-                <h1>Home</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro odit esse ut quidem deleniti dolore doloremque aliquam neque ad at optio odio quasi aperiam necessitatibus reiciendis, quaerat quod autem.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima exercitationem earum beatae assumenda debitis quibusdam, ducimus autem a ab nisi, praesentium et enim numquam consequatur similique quis consectetur consequuntur iure!
-                </p>    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima exercitationem earum beatae assumenda debitis quibusdam, ducimus autem a ab nisi, praesentium et enim numquam consequatur similique quis consectetur consequuntur iure!
-                </p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima exercitationem earum beatae assumenda debitis quibusdam, ducimus autem a ab nisi, praesentium et enim numquam consequatur similique quis consectetur consequuntur iure!
-                </p>
+              <timeline-section data-name="Overview">
+
+                    <!-- Overview Section -->
+              <section id="about" class="content-section text-center">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                      <h2>Overview</h2>
+                      <p class="intro-text">Introduction</p>
+                      <p>Include a general summary of the years when witchcraft trials were most prevalent and their geographical locations</p>
+
+                      <p>We plan to use:
+                        <ol style="text-align: left">
+                          <li>ArcGIS to create a mapping of the different counties for witchcraft accusations</li>
+                          <li>Tableau for most of the data visualizations - we can create a dashboard that contains a heat map, different graphs showing correlations between major witch hunts and other historical events, and bar chats with percentages of the demographics of men and women who were accused + categories of accusations</li>
+                          <li>Bootstrap, HTML, CSS, and Javascript for the website</li>      
+                        </ol>
+                      </p>
+
+                      <p>This is an example of a bar chart of which counties had the most number of accusations</p>
+                      <div class="row">
+                        <img src="./img/counties.png" style="height:500px"/>
+                      </div>
+                      <br>
+                      <br>
+                    </div>
+                        
+                    <br>
+                    <br>
+                  </div>
+                </div>
+              </section>
+
               </timeline-section>
-              <timeline-section data-name="Profile">
+
+
+              <timeline-section data-name="Timeline">
                 
-                <h1>Profile</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro odit esse ut quidem deleniti dolore doloremque aliquam neque ad at optio odio quasi aperiam necessitatibus reiciendis, quaerat quod autem.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima exercitationem earum beatae assumenda debitis quibusdam, ducimus autem a ab nisi, praesentium et enim numquam consequatur similique quis consectetur consequuntur iure!
-                </p>
+              <div class="navbar-padding"></div>
+              <section id="details" class="content-section text-center">
+
+                <h2>Timeline of Events</h2>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+
+                <div class='tableauPlaceholder' id='viz1512867227265' style='position: relative'>
+                  <noscript>
+                    <a href='#'>
+                      <img alt='Timeline Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalDHProject-Timelineexplored&#47;TimelineDashboard&#47;1_rss.png' style='border: none' />
+                      </a>
+                    </noscript>
+                    <object class='tableauViz'  style='display:none;'>
+                      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                      <param name='embed_code_version' value='3' /> 
+                      <param name='site_root' value='' />
+                      <param name='name' value='FinalDHProject-Timelineexplored&#47;TimelineDashboard' />
+                      <param name='tabs' value='no' />
+                      <param name='toolbar' value='yes' />
+                      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalDHProject-Timelineexplored&#47;TimelineDashboard&#47;1.png' /> <param name='animate_transition' value='yes' />
+                      <param name='display_static_image' value='yes' />
+                      <param name='display_spinner' value='yes' />
+                      <param name='display_overlay' value='yes' />
+                      <param name='display_count' value='yes' />
+                    </object>
+                  </div>                
+                  <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1512867227265');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='500px';vizElement.style.height='427px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                  </script>
+
+              </div>
+            </div>
+          </div>
+
+
+                </section>
+
+
               </timeline-section>
-              <timeline-section data-name="Works">
-                <h1>Works</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro odit esse ut quidem deleniti dolore doloremque aliquam neque ad at optio odio quasi aperiam necessitatibus reiciendis, quaerat quod autem.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima exercitationem earum beatae assumenda debitis quibusdam, ducimus autem a ab nisi, praesentium et enim numquam consequatur similique quis consectetur consequuntur iure!
-                </p>
+
+
+              <timeline-section data-name="Explorations">
+              <div class="navbar-padding"></div>
+              <section id="details" class="content-section text-center">
+
+                <h2>Gender Explorations</h2>
+
+
+                <div class='tableauPlaceholder' id='viz1512867350177' style='position: relative'>
+                  <noscript>
+                    <a href='#'>
+                      <img alt='Gender view ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalDHProject&#47;Genderview&#47;1_rss.png' style='border: none' />
+                    </a>
+                  </noscript>
+                  <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='FinalDHProject&#47;Genderview' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalDHProject&#47;Genderview&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                  </object>
+                </div>                
+                  <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1512867350177');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='1000px';vizElement.style.height='827px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                  </script>
+                </section>
+
               </timeline-section>
-              <timeline-section data-name="Esperiments">
-                <h1>Experiments</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro odit esse ut quidem deleniti dolore doloremque aliquam neque ad at optio odio quasi aperiam necessitatibus reiciendis, quaerat quod autem.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
+
+              <timeline-section data-name="Details">
+
+                <!-- details section-->
+                <section class="content-section text-center">
+
+
+                  <div class="container">
+                    <div class="col-lg-12" align="center">
+                      <h2>Details</h2>
+                      <div class="row">
+                        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                          <div class="announcement">
+                             <img src="img/gender.png" class="img-responsive" style="height: 400px"/>
+                          </div>
+                          <h4>Gender Distribution</h4>
+                          <p>Disproportionate amount of women were accused in comparison to their male counterparts
+                          </p>
+                        </div>
+
+                        <div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                          <div class="announcement">
+                            <img src="img/marriage.png" class="img-responsive" style="height: 400px"/>
+                          </div>
+                         <h4>Marriage Status of Witches</h4>
+                          <p>Most of the women accused were married and few accused were actually widowed or single. This may be because married women would have been better off and more wealthy than single women due to their husband or household.
+                          </p>
+                        </div>
+
+                        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                          <div class="announcement">
+                            <img src="img/socio-ec.png" class="img-responsive" style="height: 400px"/>
+                          </div>
+                          <h4>Socioeconomic Status of Witches</h4>
+                          <p>Most accused were not part of the extremes of the classes, but were middle class. This was interesting because we were expecting either lower class or upper class citizens to accuse more people.
+                          </p>
+                        </div>
+                      </div>
+                  </div>
+                  <br>
+                  <br>
+                  <div class="text-center">
+                      <h2>Demonic Posessions</h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                      <div class="announcement">
+                         <img src="img/fea1.jpg" class="img-responsive" style="height: 200px"/>
+                      </div>
+                      <h4>What</h4>
+                      <p>We explain what this phenomena is
+                      </p>
+                    </div>
+
+                    <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                      <div class="announcement">
+                        <img src="img/fea2.jpg" class="img-responsive" style="height: 200px"/>
+                      </div>
+                      <h4>Where</h4>
+                      <p>In what counties was this accusation prevalent
+                      </p>
+                    </div>
+
+                    <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                      <div class="announcement">
+                        <img src="img/fea3.jpg" class="img-responsive" style="height: 200px"/>
+                      </div>
+                      <h4>Why</h4>
+                      <p>What possible social factors contributed to this
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+
               </timeline-section>
-              <timeline-section data-name="About">
-                <h1>About</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro odit esse ut quidem deleniti dolore doloremque aliquam neque ad at optio odio quasi aperiam necessitatibus reiciendis, quaerat quod autem.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
+
+              <timeline-section data-name="Conclusions">
+
+                <!-- Conclusions -->
+                <section id="conclusions" class="content-section text-center">
+                  <div class="container">
+                    <div class="col-lg-12" align="center">
+                      <h2>Conclusions</h2>
+                      <h3>And future direcitons</h3>
+                      <h3>Are we able to make any strong conclusions?</h3>
+                  </div>
+                </div>
+              </section>
+
+
+
               </timeline-section>
+
               <timeline-section data-name="Contact">
                 <h1>Contact</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro odit esse ut quidem deleniti dolore doloremque aliquam neque ad at optio odio quasi aperiam necessitatibus reiciendis, quaerat quod autem.</h2>
@@ -125,178 +310,13 @@
               </timeline-section>
             </div>
 
-    <!-- Overview Section -->
-    <section id="about" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Overview</h2>
-            <p class="intro-text">Introduction</p>
-            <p>Include a general summary of the years when witchcraft trials were most prevalent and their geographical locations</p>
 
 
-            
 
-            <p>We plan to use:
-              <ol style="text-align: left">
-                <li>ArcGIS to create a mapping of the different counties for witchcraft accusations</li>
-                <li>Tableau for most of the data visualizations - we can create a dashboard that contains a heat map, different graphs showing correlations between major witch hunts and other historical events, and bar chats with percentages of the demographics of men and women who were accused + categories of accusations</li>
-                <li>Bootstrap, HTML, CSS, and Javascript for the website</li>      
-              </ol>
-            </p>
-            <p>Example of a Google map that we can use to show geographic locations:<p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d4396582.218771157!2d-6.591284496962101!3d57.448208426808215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x4861e2c403f2a19f%3A0xe7c1fad809c30714!2sScotland%2C+UK!3m2!1d56.490671199999994!2d-4.2026458!5e0!3m2!1sen!2sus!4v1511823771231" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <p>This is an example of a bar chart of which counties had the most number of accusations</p>
-            <div class="row">
-              <img src="./img/counties.png" style="height:500px"/>
-            </div>
-            <br>
-            <br>
-            <p>Here we see a summary of the total number of recorded witch trials every year. Notice that there are two peaks in 1650 and 1660. Include explanations for why later.</p>
-            <br>
-            <br>
-            <div class="row">
-              <div class='tableauPlaceholder' id='viz1511824035800' style='position: relative'>
-                <noscript>
-                  <a href='#'>
-                    <img alt='Test Dashboard' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wi&#47;Witches_Trials_WB1&#47;Dashboard1&#47;1_rss.png' style='border: none' />
-                  </a>
-                </noscript>
-                <object class='tableauViz'  style='display:none;'>
-                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                  <param name='embed_code_version' value='3' /> 
-                  <param name='site_root' value='' />
-                  <param name='name' value='Witches_Trials_WB1&#47;Dashboard1' />
-                  <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-                  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wi&#47;Witches_Trials_WB1&#47;Dashboard1&#47;1.png' /> 
-                  <param name='animate_transition' value='yes' />
-                  <param name='display_static_image' value='yes' />
-                  <param name='display_spinner' value='yes' />
-                  <param name='display_overlay' value='yes' />
-                  <param name='display_count' value='yes' />
-                </object>
-              </div>
-            </div>
-          
-          </div>
-
-
-          
-        </div>
-          <br>
-          <br>
-          <div class="centering-graph">
-            <p>Tableau example</p>
-            <div class='tableauPlaceholder' id='viz1512425713285' style='position: relative'>
-              <noscript>
-                <a href='#'>
-                  <img alt='Timeline Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalDHProject&#47;TimelineDashboard&#47;1_rss.png' style='border: none' />
-                </a>
-              </noscript>
-              <object class='tableauViz'  style='display:none;'>
-                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                <param name='embed_code_version' value='3' /> 
-                <param name='site_root' value='' />
-                <param name='name' value='FinalDHProject&#47;TimelineDashboard' />
-                <param name='tabs' value='no' />
-                <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalDHProject&#47;TimelineDashboard&#47;1.png' /> 
-                <param name='animate_transition' value='yes' />
-                <param name='display_static_image' value='yes' />
-                <param name='display_spinner' value='yes' />
-                <param name='display_overlay' value='yes' />
-                <param name='display_count' value='yes' />
-                <param name='filter' value='publish=yes' />
-              </object>
-            </div>                
-            <script type='text/javascript'>                    
-              var divElement = document.getElementById('viz1512425713285');                    
-              var vizElement = divElement.getElementsByTagName('object')[0];                    
-              vizElement.style.width='1000px';vizElement.style.height='827px';                    
-              var scriptElement = document.createElement('script');                    
-              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-              vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-            </script>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Details section-->
-    <section id="details" class="download-section content-section text-center">
-
-
-      <div class="container">
-        <div class="col-lg-12" align="center">
-          <h2>Details</h2>
-          <div class="row">
-            <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="announcement">
-                 <img src="img/gender.png" class="img-responsive" style="height: 400px"/>
-              </div>
-              <h4>Gender Distribution</h4>
-              <p>Disproportionate amount of women were accused in comparison to their male counterparts
-              </p>
-            </div>
-
-            <div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <div class="announcement">
-                <img src="img/marriage.png" class="img-responsive" style="height: 400px"/>
-              </div>
-             <h4>Marriage Status of Witches</h4>
-              <p>Most of the women accused were married and few accused were actually widowed or single. This may be because married women would have been better off and more wealthy than single women due to their husband or household.
-              </p>
-            </div>
-
-            <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-              <div class="announcement">
-                <img src="img/socio-ec.png" class="img-responsive" style="height: 400px"/>
-              </div>
-              <h4>Socioeconomic Status of Witches</h4>
-              <p>Most accused were not part of the extremes of the classes, but were middle class. This was interesting because we were expecting either lower class or upper class citizens to accuse more people.
-              </p>
-            </div>
-          </div>
-      </div>
-      <br>
-      <br>
-      <div class="text-center">
-          <h2>Demonic Posessions</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <div class="announcement">
-             <img src="img/fea1.jpg" class="img-responsive" style="height: 200px"/>
-          </div>
-          <h4>What</h4>
-          <p>We explain what this phenomena is
-          </p>
-        </div>
-
-        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="announcement">
-            <img src="img/fea2.jpg" class="img-responsive" style="height: 200px"/>
-          </div>
-          <h4>Where</h4>
-          <p>In what counties was this accusation prevalent
-          </p>
-        </div>
-
-        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <div class="announcement">
-            <img src="img/fea3.jpg" class="img-responsive" style="height: 200px"/>
-          </div>
-          <h4>Why</h4>
-          <p>What possible social factors contributed to this
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </section>
+        
 
     <!-- Data section-->
-    <section id="data" class="content-section text-center">
+<!--     <section id="data" class="content-section text-center">
       <div class="container">
         <div class="col-lg-12" align="center">
           <h2>Data Mapping</h2>
@@ -306,7 +326,7 @@
           <p>Or if we want to include all the data in the details section, we can explain where we got our data here. And how we broke it down and analyzed everything.</p>
           <br>
           <br>
-        </div>
+        </div> -->
       
 
 <!--         <div class="port-sec">
@@ -338,17 +358,6 @@
 
     </section>
 
-
-    <!-- Conclusions -->
-    <section id="conclusions" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-12" align="center">
-          <h2>Conclusions</h2>
-          <h3>And future direcitons</h3>
-          <h3>Are we able to make any strong conclusions?</h3>
-      </div>
-    </div>
-  </section>
 
     <!-- Team Section -->
     <section id="contact" class="content-section text-center">

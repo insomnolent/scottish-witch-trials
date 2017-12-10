@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -20,6 +21,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/timeline.css" rel="stylesheet">
+    <link href="css/extra.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="./img/potion.png"/>
 
   </head>
 
@@ -28,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="./index.html">Scottish Witch Trials</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Scottish Witch Trials</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -36,74 +41,36 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="./about.html">About</a>
+              <a class="nav-link js-scroll-trigger" href="index.html">Narrative</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Data</a>
+              <a class="nav-link js-scroll-trigger" href="#data">Data Critique</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#conclusions">Conclusions</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="works.html">Works Cited</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Team</a>
+            </li>
+
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-        <div class="intro-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="brand-heading">About This Project</h2>
-                <p class="intro-text">Objectives | Goals | Conclusions</p>
-                <a href="#about" class="btn btn-circle js-scroll-trigger">
-                  <i class="fa fa-angle-double-down animated"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-    </header>
 
-    <!-- About Section -->
-    <section id="about" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>About Grayscale</h2>
-            <p>Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            <p>This theme features stock photos by
-              <a href="http://gratisography.com/">Gratisography</a>
-              along with a custom Google Maps skin courtesy of
-              <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-            <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with SASS and LESS files for easy customization!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="download" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>Download Grayscale</h2>
-          <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-          <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
+    <!-- Team Section -->
     <section id="contact" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact Start Bootstrap</h2>
-            <p>Feel free to leave us a comment on the
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
-              on Start Bootstrap to give some feedback about this theme!</p>
+            <h2>Team Members</h2>
+            <p>We are Group 11 and we're all dying from work and classes and research and extracurriculars :)</p>
+            <p>We'll have individual pictures and bios of each member later</p>
+            <p>Also thank any collaborators and contributors</p>
             <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
@@ -129,9 +96,6 @@
       </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
     <!-- Footer -->
     <footer>
       <div class="container text-center">
@@ -147,8 +111,20 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/timeline.js"></script>
+
+    <script type='text/javascript'>                    
+      var divElement = document.getElementById('viz1511824035800');                    
+      var vizElement = divElement.getElementsByTagName('object')[0];                    
+      vizElement.style.width='1000px';vizElement.style.height='827px';                    
+      var scriptElement = document.createElement('script');                    
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
