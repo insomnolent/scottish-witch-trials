@@ -6438,7 +6438,7 @@ button.close {
   bottom: 10px;
   left: 50%;
   z-index: 15;
-  width: 60%;
+  /*width: 60%;*/
   padding-left: 0;
   margin-left: -30%;
   text-align: center;
