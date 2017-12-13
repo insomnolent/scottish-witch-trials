@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,400,900");
+
 .navbar-padding {
 	padding-top: 50px;
 }
 .section-padding {
 	padding-top: 20px;
+}
+.montserrat {
+	font-family: 'Montserrat';
 }
