@@ -63,39 +63,45 @@
     </section>
 
 
-<h2 style="text-align: center">Details</h2>
-    <section class="content-section text-center" style="padding-top: 0; padding-bottom: 0">
-      <div class="container">
+<section class="content-section text-center" style="padding-top: 0">
+                  <div class="container">
+                  <div class="row">
+                    <div class="col-lg-11 mx-auto">
+                      <h2>Details</h2>
+                      <div class="montserrat" style="text-align: left">
+<h4>Source:</h4>
 
-Source:
+      <p>Our project group was given two datasets: one contains information about the cases of alleged witchcraft, while the other contains information on the profiles of the accused witches. The datasets were compiled by Julian Goodare, who is coincidentally the author of many studies pertaining to the Great Scottish Witch Hunts. On top of our data, we also referred to additional sources, primary and secondary. We referred to the Lynda video on Information Literacy to assist us with finding our sources; we recorded different keywords related to our topic before looking them up across several library databases, like the UCLA Library Catalog.</p>
 
-Our project group was given two datasets: one contains information about the cases of alleged witchcraft, while the other contains information on the profiles of the accused witches. The datasets were compiled by Julian Goodare, who is coincidentally the author of many studies pertaining to the Great Scottish Witch Hunts. On top of our data, we also referred to additional sources, primary and secondary. We referred to the Lynda video on Information Literacy to assist us with finding our sources; we recorded different keywords related to our topic before looking them up across several library databases, like the UCLA Library Catalog.
+      <p>One notable primary source that we found was <cite>Newes from Scotland - Declaring the Damnable Life and Death of Dr. Fian, A Notable Sorcerer</cite> that was compiled by Carmichael, detailing confessions of some accused witches who were allegedly involved in the attempted murder of King James VI.</p>
 
-One notable primary source that we found was Newes from Scotland - Declaring the Damnable Life and Death of Dr. Fian, A Notable Sorcerer that was compiled by Carmichael, detailing confessions of some accused witches who were allegedly involved in the attempted murder of King James VI.
+      <h4>Processing</h4>
+      <p>For data processing, we first combined the two datasets to create a single .csv file. We found that the datasets are one-to-one, except for the cases that involved two or more witches; hence, we used the vlookup function in Excel to combine the two datasets into one, in order to facilitate our analysis.</p>
 
-Processing
-For data processing, we first combined the two datasets to create a single .csv file. We found that the datasets are one-to-one, except for the cases that involved two or more witches; hence, we used the vlookup function in Excel to combine the two datasets into one, in order to facilitate our analysis.
+      <p>Before we began our analysis, we looked at the following research questions:</p>
+      <ul>
+        <li>What is the proportion of men and women who were accused of witchcraft? </li>
+        <li>What is the socio-economic breakdown of the individuals accused of witchcraft?</li>
+        <li>During which years were accusations highest?</li>
+        <li>Was there any particular reason why accusations of witchcraft were so prevalent during the 16th and 17th century?</li>
+      </ul>
 
-Before we began our analysis, we looked at the following research questions:
+      <p>Once we narrowed down our research questions, our data specialist, James used R to breakdown the profiles of the witches by gender, age, and occupation. Using the same software, James also collected the years which had abnormally high numbers of accusations. Meanwhile, our map specialist, Michelle, worked with our class’ map specialist, Albert, to identify the counties where witchcraft accusations were most prevalent.</p>
 
-What is the proportion of men and women who were accused of witchcraft? 
-What is the socio-economic breakdown of the individuals accused of witchcraft?
-During which years were accusations highest?
-Was there any particular reason why accusations of witchcraft were so prevalent during the 16th and 17th century?
+      <h4>Presentation</h4>
+      <p>To visualize our findings, we used Tableau (for bars and charts) and Carto (for maps). We then embedded our visualizations on the website so that the visualizations are interactive which allows readers to toggle between different parameters.</p>
 
-Once we narrowed down our research questions, our data specialist, James used R to breakdown the profiles of the witches by gender, age, and occupation. Using the same software, James also collected the years which had abnormally high numbers of accusations. Meanwhile, our map specialist, Michelle, worked with our class’ map specialist, Albert, to identify the counties where witchcraft accusations were most prevalent.
+      <p>We used a variety of bars and charts to visualize our data, after referring to <a href="https://datavizcatalogue.com/search/comparisons.html">The Data Visualization Catalogue</a>. For timelines, we used a line chart to emphasize peaks in accusations, for comparisons, we used mostly bar charts to highlight differences, and for location-related information, we used a heat map to indicate areas with high numbers of accusations.</p>
 
-Presentation
-To visualize our findings, we used Tableau (for bars and charts) and Carto (for maps). We then embedded our visualizations on the website so that the visualizations are interactive which allows readers to toggle between different parameters.
+      <p>Ultimately, our project is presented on a custom website that was created by our web specialist, Christine. Following the suggestion from the video on Design Aesthetics for the Web, Christine created the website with the color and form in mind: the contrasting colors make the contents easy to read while the incorporation of a sidebar on our site allows readers to jump to different sections within the same page.</p>
 
-We used a variety of bars and charts to visualize our data, after referring to The Data Visualization Catalogue. For timelines, we used a line chart to emphasize peaks in accusations, for comparisons, we used mostly bar charts to highlight differences, and for location-related information, we used a heat map to indicate areas with high numbers of accusations.
+      <p>If you wish to learn more about our data and how we critiqued it, please refer to our <a href="data.html">data critique</a>!</p>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                </section>
 
-Ultimately, our project is presented on a custom website that was created by our web specialist, Christine. Following the suggestion from the video on Design Aesthetics for the Web, Christine created the website with the color and form in mind: the contrasting colors make the contents easy to read while the incorporation of a sidebar on our site allows readers to jump to different sections within the same page.
-
-
-If you wish to learn more about our data and how we critiqued it, please refer to our data critique (link here)!
-</div>
-</section>
 
 
     <!-- Team Section -->
@@ -188,7 +194,7 @@ If you wish to learn more about our data and how we critiqued it, please refer t
         <div class="row align-items-center">
           <div class="col-md-4 order-2">
             <div class="p-5">
-              <img class="img-fluid rounded-circle" src="https://unsplash.it/500/500?image=453" alt="">
+              <img class="img-fluid rounded-circle" src="img/michellepic.jpg" alt="">
             </div>
           </div>
           <div class="col-md-8 order-1">
@@ -197,7 +203,7 @@ If you wish to learn more about our data and how we critiqued it, please refer t
 
               <h2 class="display-6">Michelle Vo</h2>
               <h3 class="display-6">Mapping Specialist</h3>
-              <p style="line-height: 1.5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+              <p style="line-height: 1.5">Michelle is a third year Linguistics & Computer Science and Cognitive Science double major with a minor in Digital Humanities. As the mapping specialist, she geocoded the old shires of Scotland and utilized Carto to create a heat map depicting the quantity of witchcraft accusations across the different counties. She is also currently a Virtual Reality developer at the UCLA Cotsen Institute of Archaeology and 3D printing specialist at the UCLA Lux Lab.</p>
             </div>
           </div>
           </div>
@@ -209,7 +215,7 @@ If you wish to learn more about our data and how we critiqued it, please refer t
       <h3>Our Project Charter can be accessed <a href="https://docs.google.com/document/d/1l8arT0w95j1QKejTz0gztQsD9MI1uXBYmJU9dQLlgGY/edit?usp=sharing">here</a></h3>
     </section>
 
-            <ul class="list-inline banner-social-buttons">
+            <!-- <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
                   <i class="fa fa-twitter fa-fw"></i>
@@ -228,7 +234,7 @@ If you wish to learn more about our data and how we critiqued it, please refer t
                   <span class="network-name">Google+</span>
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
 
